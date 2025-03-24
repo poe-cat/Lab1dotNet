@@ -1,0 +1,38 @@
+﻿# Ignore build outputs
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.appx
+*.user
+*.suo
+*.cache
+*.log
+*.vs/
+*.db
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Ignore package stuff
+packages/
+*.nupkg
+project.lock.json
+
+# Ignore user-specific VS files
+*.csproj.user
+*.sln.docstates
+.vscode/
+*.psess
+*.vsp
+
+# Ignore OS and editor junk
+.DS_Store
+Thumbs.db
+
+# Only commit source code
+!*.cs
